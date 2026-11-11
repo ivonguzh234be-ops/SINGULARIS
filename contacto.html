@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="contenedor-pagina">
+        <h1 class="titulo-principal"> FORMULARIO DE CONTACTO</h1>
+        <nav class="menu-navegacion">
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="contenido.html">CONTENIDO PRINCIPAL</a></li>
+                <li><a href="informacion.html">INFORMACIÓN ADICIONAL</a></li>
+                <li><a href="contacto.html">CONTACTOS</a></li>
+            </ul>
+        </nav>
+        <p class="frase-destacada">
+            EXPLORAR EL UNIVERSO ES DESCUBRIR LOS SECRETOS DE NUESTRO ORIGEN Y LOS MISTERIOS INFINITOS.
+        </p>
+        <p >
+        ¿Tienes preguntas o comentarios sobre el tema u proyecto?
+        </p>
+        <div class="contenedor-formulario">
+            <form action="#" method="post" onsubmit="alert('Formulario de practica enviado correctamente.'); return false;">
+                
+                <div class="campo-grupo">
+                    <marquee behavior="ALTERNATE"><label for="nombre">Nombre completo:</label></marquee>
+                    <input type="text" id="nombre" name="nombre">
+                </div>
+
+                <div class="campo-grupo">
+                    <marquee behavior="ALTERNATE"><label for="correo">Correo electronico:</label></marquee>
+                    <input type="email" id="correo" name="correo">
+                </div>
+
+                <div class="campo-grupo">
+                    <marquee behavior="ALTERNATE"><label for="mensaje">Mensaje, consulta o asunto:</label></marquee>
+                    <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+                </div>
+                  <button type="submit" class="btn-enviar">ENVIAR MENSAJE</button>
+                  <a href="index.html" class="btn-inicio">Volver al inicio</a>
+            </form>
+        </div> 
+        <div class="footer">
+            HERNANDEZ GUZMAN IVONNE 5 - B
+        </div>
+    </div>
+</body>
+</html>

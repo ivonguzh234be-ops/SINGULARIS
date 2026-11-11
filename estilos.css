@@ -1,0 +1,295 @@
+body {
+    background-image: url('imagenes/imagen1.jpg');
+    background-size: cover;          
+    background-repeat: no-repeat;    
+    background-position: center;     
+    background-attachment: fixed;    
+}
+body {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+}
+.btn-inicio-portada {
+    display: inline-block;
+    background-color: #d3b0efef;
+    color: #000000;
+    padding: 6px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+    border-radius: 2px;
+    letter-spacing: 1px;
+}
+.contenedor-pagina {
+    width: 100%;
+    max-width: 850px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-principal {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #a5b4fc;
+}
+.menu-navegacion ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu-navegacion a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+.menu-navegacion a:hover {
+    color: #d4bfff;
+}
+.grid-secciones {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 25px; 
+    width: 100%;
+    margin-bottom: 30px;
+}
+caja-contenido {
+    background-color: rgba(242, 242, 247, 0.8); 
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 12px;
+    padding: 25px 30px;
+    width: 100%;
+    margin-bottom: 25px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+}
+
+.caja-contenido {
+    background-color: rgba(221, 220, 227, 0); 
+    border: 1px solid rgba(15, 1, 1, 0.25);
+    border-radius: 12px;
+    padding: 25px 30px;
+    width: 100%;
+    margin-bottom: 25px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+}
+
+.caja-contenido h3 {
+    margin-top: 0;
+    color: #e0d4f7;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+}
+
+.caja-contenido p {
+    line-height: 1.6;
+    font-size: 0.95rem;
+    margin-bottom: 12px;
+}
+.bloque-enlaces {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.bloque-enlaces p {
+    margin: 8px 0;
+}
+
+.bloque-enlaces a {
+    color: #d4bfff;
+    text-decoration: none;
+}
+
+.bloque-enlaces a:hover {
+    text-decoration: underline;
+}
+.btn-enlace-mas {
+    display: inline-block;
+    background-color: #d4bfff;
+    color: #0f0c29 !important;
+    padding: 8px 15px;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-decoration: none !important;
+    transition: background-color 0.3s ease;
+}
+
+.btn-enlace-mas:hover {
+    background-color: #ffffff;
+}
+.caja-tabla-completa {
+    grid-column: 1 / -1; 
+    overflow-x: auto; 
+}
+.tabla-cosmica {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-size: 0.9rem;
+    text-align: left;
+    background-color: rgba(10, 8, 30, 0.6);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.tabla-cosmica th {
+    background-color: rgba(60, 40, 100, 0.85);
+    color: #e0d4f7;
+    padding: 12px 15px;
+    letter-spacing: 1px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    text-align: center;
+}
+.tabla-cosmica td {
+    padding: 12px 15px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: #f0f0f0;
+    vertical-align: middle;
+}
+.tabla-cosmica tbody tr:hover {
+    background-color: rgba(120, 90, 180, 0.2);
+    transition: background-color 0.3s ease;
+}
+.tabla-cosmica td[rowspan] {
+    background-color: rgba(40, 25, 75, 0.5);
+    font-weight: bold;
+    text-align: center;
+    color: #d4bfff;
+}
+.titulo-faqs {
+    color: #e0d4f7;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.lista-faqs {
+    list-style-type: square;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.lista-faqs li {
+    margin-bottom: 15px;
+    color: #d4bfff;
+}
+
+.lista-faqs strong {
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+
+.lista-faqs p {
+    color: #ffffff;
+    font-size: 0.95rem;
+    margin: 4px 0 0 0;
+    line-height: 1.5;
+}
+.contenedor-formulario {
+    background-color: rgba(15, 12, 41, 0.85); 
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 12px;
+    padding: 30px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+    margin: 20px 0;
+    box-sizing: border-box;
+}
+
+
+.frase-destacada {
+    font-style: italic;
+    color: #e0d4f7;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    max-width: 600px;
+}
+
+.contenedor-pagina p:not(.frase-destacada):not(.footer) {
+    color: #d4bfff;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+}
+.campo-grupo {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.campo-grupo label {
+    font-size: 0.9rem;
+    color: #e0d4f7;
+    margin-bottom: 6px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+.campo-grupo input,
+.campo-grupo textarea {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 6px;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 0.95rem;
+    font-family: sans-serif;
+    outline: none;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+}
+.campo-grupo input:focus,
+.campo-grupo textarea:focus {
+    border-color: #d4bfff;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+.btn-enviar,
+.btn-inicio {
+    display: inline-block;
+    width: 100%;
+    background-color: #d4bfff;
+    color: #0f0c29;
+    border: none;
+    padding: 11px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 0.95rem;
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-inicio {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #ffffff !important;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.btn-enviar:hover {
+    background-color: #ffffff;
+    transform: scale(1.01);
+}
+
+.btn-inicio:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+}
